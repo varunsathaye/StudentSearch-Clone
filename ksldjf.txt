@@ -1,0 +1,38 @@
+<select name="Batch" id="Batch">
+                <option value="" disabled selected>Batch</option>
+               
+            </select>
+            <select name="Gender" id="Gender">
+                <option value="" disabled selected>Gender</option>
+                
+
+            </select>
+            <select name="Hall" id="Hall">
+                <option value="" disabled selected>Hall</option>
+                <option value="">ACES</option>
+                <option value="">CPWD</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                
+            </select>

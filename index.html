@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="logic.js"></script>
+    <title>Student Search | IITK</title>
+</head>
+<body>
+    
+    <div class="main-container">
+        <div class="top3">
+            <select name="Batch" id="batch-select">
+                <option value="" disabled selected>Batch</option>
+                <option value="">Other</option>
+                <option value="">Y10</option>
+                <option value="">Y11</option>
+                <option value="">Y12</option>
+                <option value="">Y13</option>
+                <option value="">Y14</option>
+                <option value="">Y15</option>
+                <option value="">Y16</option>
+                <option value="">Y17</option>
+                <option value="">Y18</option>
+                <option value="">Y19</option>
+                <option value="">Y20</option>
+                <option value="">Y21</option>
+                <option value="">Y22</option>
+                <option value="">Y23</option>
+                <option value="">Y8</option>
+                <option value="">Y9</option>
+            </select>
+            <select name="Gender" id="gender-select">
+                <option value="" disabled selected>Gender</option>
+                <option value="">Any</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+            <select name="Hall" id="hall-select">
+                <option value="" disabled selected>Hall</option>
+                <option value="">ACES</option>
+                <option value="">CPWD</option>
+                <option value="">DAY</option>
+                <option value="">GH</option>
+                <option value="">HALL1</option>
+                <option value="">HALL12</option>
+                <option value="">HALL13</option>
+                <option value="">HALL14</option>
+                <option value="">HALL2</option>
+                <option value="">HALL3</option>
+                <option value="">HALL4</option>
+                <option value="">HALL4</option>
+                <option value="">HALL5</option>
+                <option value="">HALL6</option>
+                <option value="">HALL7</option>
+                <option value="">HALL8</option>
+                <option value="">HALL9</option>
+                <option value="">HALLX</option>
+                <option value="">HALLXI</option>
+                <option value="">NRA</option>
+                <option value="">Not Available</option>
+                <option value="">RA</option>
+                <option value="">SBRA</option>
+                <option value="">TYPE1</option>
+                <option value="">TYPE1B</option>
+                <option value="">TYPE5</option>
+                <option value="">UNKN</option>
+                
+                
+            </select>
+
+        </div>
+        <div class="bottom3">
+            <select name="Programme" id="programme-select">
+                <option value="" disabled selected>Programme</option>
+                <option value="">BS</option>
+                <option value="">BS-MBA</option>
+                <option value="">BS-MS</option>
+                <option value="">BS-MT</option>
+                <option value="">BT-M.Des</option>
+                <option value="">BT-MBA</option>
+                <option value="">BT-MS</option>
+                <option value="">BTech</option>
+                <option value="">DIIT</option>
+                <option value="">Exchng Prog.</option>
+                <option value="">MBA</option>
+                <option value="">MDes</option>
+                <option value="">MS-Research</option>
+                <option value="">MSc(2 yr)</option>
+                <option value="">MSc(Int)</option>
+                <option value="">MSc-PhD</option>
+                <option value="">MT(Dual)</option>
+                <option value="">MTech</option>
+                <option value="">MTech-PhD</option>
+                <option value="">PGPEX-VLM</option>
+                <option value="">PhD</option>
+                <option value="">Prep.</option>
+                <option value="">SURGE</option>
+                <option value="">eMasters</option>
+            </select>
+            <select name="Department" id="department-select">
+                <option value="" disabled selected>Department</option>
+                <option value="">Aerospace Engineering</option>
+                <option value="">Biological Sciences and Bioengineering</option>
+                <option value="">Chemical Engineering</option>
+                <option value="">Chemistry</option>
+                <option value="">Civil Engineering</option>
+                <option value="">Cognitive Science</option>
+                <option value="">Computer Science and Engineering</option>
+                <option value="">Dean of Academic Affairs</option>
+                <option value="">Dean of R&D</option>
+                <option value="">Dean of Alumni</option>
+                <option value="">Design</option>
+                <option value="">Earth Science</option>
+                <option value="">Economics</option>
+                <option value="">Electrical Engineering</option>
+                <option value="">Environmental Engineering and Management</option>
+                <option value="">Humanities and Social Sciences</option>
+                <option value="">Industrial and Management Engineering</option>
+                <option value="">Laser Technology</option>
+                <option value="">Material Science Programme</option>
+                <option value="">Materials Science Engineering</option>
+                <option value="">Mathematics</option>
+                <option value="">Mathematics and Scientific Computing</option>
+                <option value="">Statistics and Mathematics</option>
+                <option value="">Mechanical Engineering</option>
+                <option value="">Nuclear Engineering</option>
+                <option value="">Photonics Science</option>
+                <option value="">Physics</option>
+                <option value="">Space Sciences</option>
+                <option value="">Statistics</option>
+                <option value="">Statistics and Data Science</option>
+                <option value="">Sustainable Energy Engineering</option>
+            </select>
+            <select name="Blood Group" id="blood-select">
+                <option value="" disabled selected>Blood Group</option>
+                <option value="">A+</option>
+                <option value="">A-</option>
+                <option value="">AB+</option>
+                <option value="">AB-</option>
+                <option value="">B+</option>
+                <option value="">B-</option>
+                <option value="">Not</option>
+                <option value="">Not Available</option>
+                <option value="">O+</option>
+                <option value="">O-</option>
+            </select>
+        </div>
+        <div class="hometown">
+            <input type="text"id="hometown-input" placeholder="Hometown">
+        </div>
+        <div class="specifics">
+            <input type="text"id="specific-input" placeholder="Enter name, username or roll no.">
+        </div>
+    </div>
+    <div class="results">
+        <p>
+            0 results found
+        </p>
+    </div>
+</body>
+</html>
